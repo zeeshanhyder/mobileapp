@@ -1,1 +1,25 @@
-<h1>{{ $ctrl.hello }}</h1>
+<div id="main">
+  <md-toolbar class="md-hue-2">
+   <div class="md-toolbar-tools">
+     <md-button ng-click="$ctrl.toggleMainSideNav()" class="md-icon-button" aria-label="nav_menu" >
+       <md-icon>menu</md-icon>
+     </md-button>
+     <h2>
+       <span>WittyParrot</span>
+     </h2>
+     <span flex></span>
+     <md-button class="md-icon-button" aria-label="Favorite">
+       <md-icon>search</md-icon>
+     </md-button>
+     <md-button class="md-icon-button" aria-label="More">
+       <md-icon>more_vert</md-icon>
+     </md-button>
+   </div>
+  </md-toolbar>
+  <md-sidenav
+  class="md-sidenav-left"
+      md-component-id="main-sidenav"
+      md-whiteframe="4"
+  >
+  </md-sidenav>
+</div>
