@@ -24,7 +24,7 @@ gulp.task('serveprod', serveprod);
 
 function serveprod() {
   connect.server({
-    root: conf.path.dist('index.html'),
+    root: conf.path.dist(),
     port: process.env.PORT || 5000, // localhost:5000
     livereload: false
   });
