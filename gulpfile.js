@@ -18,6 +18,17 @@ gulp.task('serve', gulp.series('inject', 'watch', 'browsersync'));
 gulp.task('serve:dist', gulp.series('default', 'browsersync:dist'));
 gulp.task('default', gulp.series('clean', 'build'));
 gulp.task('watch', watch);
+gulp.task('serveprod', serveprod);
+
+
+
+function serveprod() {
+  connect.server({
+    root: conf.path.dist('index.html'),
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+}
 
 function reloadBrowserSync(cb) {
   browserSync.reload();
