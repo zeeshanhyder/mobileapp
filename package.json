@@ -95,8 +95,7 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto",
-    "bower": "bower",
-    "start": "bower install"
+    "bower": "bower"
   },
   "config": {
     "unsafe-perm": true

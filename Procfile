@@ -1,1 +1,1 @@
-web: node node_modules/gulp/bin/gulp build
+web: bower install && node node_modules/gulp/bin/gulp build
