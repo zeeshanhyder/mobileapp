@@ -96,7 +96,7 @@
     "test": "gulp test",
     "test:auto": "gulp test:auto",
     "bower": "bower",
-    "start":"gulp serve",
+    "start":"gulp serve:dist",
     "postinstall": "bower install"
   },
   "config": {
