@@ -97,7 +97,7 @@
     "test:auto": "gulp test:auto",
     "bower": "bower"
   },
-  config: {
+  "config": {
     "unsafe-perm": true
   },
   "eslintConfig": {
