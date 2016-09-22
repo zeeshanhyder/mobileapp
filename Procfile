@@ -1,1 +1,0 @@
-web: bower install && node node_modules/gulp/bin/gulp serve

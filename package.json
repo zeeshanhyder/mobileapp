@@ -95,7 +95,9 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto",
-    "bower": "bower"
+    "bower": "bower",
+    "start":"gulp serve",
+    "postinstall": "bower install"
   },
   "config": {
     "unsafe-perm": true
@@ -106,6 +108,7 @@
       "angular": true
     },
     "root": true,
+    "port": 80,
     "env": {
       "browser": true,
       "jasmine": true
