@@ -1,6 +1,5 @@
 .tmp/
 .tmp-opt/
 coverage/
-dist/
 node_modules/
 bower_components/
